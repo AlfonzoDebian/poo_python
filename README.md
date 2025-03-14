@@ -49,7 +49,7 @@ def nombreMetodoself(self):
 ```NombreMetodo```: nombre metodo de la clase-.
 
 
-```self``: Parametro del metodo, Y despues puede poner el parametro que quieras 
+```self```: Parametro del metodo, Y despues puede poner el parametro que quieras 
 
 ```bloaud codigo```: Intrucciones que ejecutaran el metodo.
 
@@ -58,5 +58,10 @@ def nombreMetodoself(self):
    - Puedes definir tantos metodos como necesite.
    - Puede definir tantos parametros como en el contructor y tantos metodos que necesites.
 
-
+## Compisicion
+- Consiste en la creacion de nuevas clases a partir de otras clases ya existente que actuan como elementos compositores de la nueva.
+- Las clases existente seran atributos de la nuevas clases.
+- En ```POO```la composicion significa que entre las 2 clases existe una relacion de tipo ```1```
+- Ejemplo:
+    - Una cordenadaa en dos dimesiones esta compuesta por 2 valores. el valor en el eje de la x y el valor en el eje de la y, esto podria ser una clase.Un cuadrado esta compuesto por 4 cordenadas, que son los 4 vertices, esto podria ser una clase que esta compuesta por 4 clases de los objeto cordenada.
 
